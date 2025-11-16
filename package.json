@@ -1,0 +1,10 @@
+{
+  "name": "lightning-pay-sim",
+  "version": "1.0.0",
+  "description": "Simulates microtransactions on the Bitcoin Lightning Network to test payment channels and routing efficiency. Useful for developers building or testing LN-enabled apps without touching real BTC.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
